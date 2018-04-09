@@ -1,0 +1,64 @@
+.form-wrapper {
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row-reverse; 
+}
+
+.input-wrapper {
+    width: 73%;
+    height: 100%;
+}
+
+.game-options-wrapper {
+    width: 25%;
+}
+
+.submit-button-wrapper {
+}
+
+.add-game-wrapper {
+    border: 5px solid green;
+    width: 100%;
+}
+
+.title-wrapper {
+}
+
+.description-wrapper {
+    margin-top: 13px;
+    width: 95%;
+    height: 70%;
+}
+
+.description-input{
+    resize: none;
+}
+
+.indoor-option {
+    margin-top: 70px;    
+}
+
+.outdoor-option {
+}
+
+.daytime-option {
+}
+
+.night-option {
+}
+
+.description-input {
+    width: 100%;
+    height: 100%;
+}
+
+.modal-wrapper {
+    text-align: center;
+}
+
+.puppy {
+    font-size: 15px;
+}
+

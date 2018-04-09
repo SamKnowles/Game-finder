@@ -1,0 +1,18 @@
+.filtered-form-wrapper {
+    width: 100%;
+    text-align: center;
+}
+
+.indoor-filter {
+}
+
+.outdoor-filter {
+}
+
+.daytime-filter {
+}
+
+.night-filter {
+    margin-bottom: 50px;
+}
+

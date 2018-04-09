@@ -1,0 +1,30 @@
+
+.side-bar-wrapper {
+    grid-area: sideBar;
+}
+
+.page-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.all-the-games {
+    grid-area: allGames;
+    margin: 30px;
+    margin-top: 10px;
+    width: 90%;
+}
+
+@media (max-width: 622px) {
+    .page-wrapper {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-areas: 
+        "sideBar"
+        "allGames"
+    }
+    .all-the-games {
+        height: 10px;
+    }
+}

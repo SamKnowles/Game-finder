@@ -1,0 +1,12 @@
+.home-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+h2 {
+    background-color: #0E6BA8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 100px;
+}
